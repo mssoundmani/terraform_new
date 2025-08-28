@@ -6,4 +6,6 @@ resource "aws_instance" "ec2" {
   tags = {
     Name ="Website_2025"
   }
-}
+} 
+
+this is ec2 instance 
