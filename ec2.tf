@@ -14,8 +14,6 @@ resource "aws_instance" "ec2" {
   tags = {
     Name ="Website_2025"
   }
+
 }
 
-resource "aws_instance" "mani" {
-  ami = "ami-0deb5b0b725bf6345"
-}
